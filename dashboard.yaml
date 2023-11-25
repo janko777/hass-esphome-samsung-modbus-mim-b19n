@@ -1,0 +1,27 @@
+type: entities
+entities:
+  - entity: number.tepelnecerpadlo2_hot_water_set_temperature
+    name: Hot water set temperature
+    icon: mdi:hydraulic-oil-temperature
+  - entity: sensor.tepelnecerpadlo2_hot_water_temperature
+    name: Hot water temperature
+    icon: mdi:hydraulic-oil-temperature
+  - entity: number.tepelnecerpadlo2_set_temperature
+    name: Room  settemperature
+    icon: mdi:hydraulic-oil-temperature
+  - entity: sensor.tepelnecerpadlo2_room_temperature
+    name: Room temperature
+    icon: mdi:hydraulic-oil-temperature
+  - entity: number.tepelnecerpadlo2_hot_watter_mode
+    name: Hot watter mode
+  - entity: number.tepelnecerpadlo2_watter_out_set_temperature
+    name: Watter out set tepmerature
+  - entity: sensor.tepelnecerpadlo2_watter_in_temperature
+    name: Watter in tepmerature
+  - entity: sensor.tepelnecerpadlo2_watter_out_temperature
+    name: Watter out tepmerature
+  - entity: sensor.tepelnecerpadlo2_air_conditioner_onoff
+  - entity: sensor.tepelnecerpadlo2_compressor_freq_ratio
+  - entity: sensor.tepelnecerpadlo2_tc_watter_flow
+  - entity: sensor.tepelnecerpadlo2_tc_outdoor_temp
+  - entity: sensor.tepelnecerpadlo2_tc_fr_control
