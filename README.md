@@ -1,0 +1,1 @@
+# hass-esphome-samsung-modbus-mim-b19n
