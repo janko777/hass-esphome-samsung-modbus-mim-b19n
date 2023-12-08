@@ -1,5 +1,10 @@
 type: entities
 entities:
+  - entity: sensor.tepelnecerpadlo2_tc_watter_flow
+  - entity: sensor.tepelnecerpadlo2_tc_fr_control
+  - entity: sensor.tepelnecerpadlo2_3way_valve_position
+  - entity: sensor.tepelnecerpadlo2_outdoor_air_in_temp
+  - entity: sensor.tepelnecerpadlo2_compressor_freq_ratio
   - entity: number.tepelnecerpadlo2_hot_water_set_temperature
     name: Hot water set temperature
     icon: mdi:hydraulic-oil-temperature
@@ -21,7 +26,10 @@ entities:
   - entity: sensor.tepelnecerpadlo2_watter_out_temperature
     name: Watter out tepmerature
   - entity: sensor.tepelnecerpadlo2_air_conditioner_onoff
-  - entity: sensor.tepelnecerpadlo2_compressor_freq_ratio
-  - entity: sensor.tepelnecerpadlo2_tc_watter_flow
-  - entity: sensor.tepelnecerpadlo2_tc_outdoor_temp
-  - entity: sensor.tepelnecerpadlo2_tc_fr_control
+  - entity: number.tepelnecerpadlo2_quiet_control
+  - entity: sensor.tepelnecerpadlo2_air_conditioner_onoff
+  - entity: sensor.tepelnecerpadlo2_air_conditioner_mode
+  - entity: sensor.tepelnecerpadlo2_defrost
+  - entity: sensor.tepelnecerpadlo2_discharge_temperature
+  - entity: sensor.tepelnecerpadlo2_cooling_discharge_set_temperature
+  - entity: sensor.tepelnecerpadlo2_heating_discharge_set_temperature
